@@ -7,6 +7,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Hotel from "./components/Hotel";
+import AdminDashboard from './components/AdminDashboard'
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
   <Route path="/hotel" element={<Hotel/>} />
   <Route path="/sightseeing" element={<h1>Sightseeing Page</h1>} />
   <Route path="/restaurant" element={<h1>Restaurant Page</h1>} />
+  <Route path="/admin" element={<AdminDashboard />} />
 </Routes>
 
     </div>

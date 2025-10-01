@@ -10,7 +10,7 @@ function NavBar() {
     { href: "/", label: "Hero" },
     { href: "/home", label: "Home" },
     { href: "/about", label: "About Us" },
-    { href: "/services", label: "Services" },
+    // { href: "/services", label: "Services" },
     { href: "/contact", label: "Contact" },
   ];
 
