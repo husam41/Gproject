@@ -7,6 +7,8 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Hotel from "./components/Hotel";
+import Sightseeing from './components/Sightseeing'
+import Restaurant from "./components/Restaurant";
 import AdminDashboard from './components/AdminDashboard'
 function App() {
   return (
@@ -19,8 +21,8 @@ function App() {
   <Route path="/services" element={<Services />} />
   <Route path="/contact" element={<Contact />} />
   <Route path="/hotel" element={<Hotel/>} />
-  <Route path="/sightseeing" element={<h1>Sightseeing Page</h1>} />
-  <Route path="/restaurant" element={<h1>Restaurant Page</h1>} />
+  <Route path="/sightseeing" element={<Sightseeing />} />
+  <Route path="/restaurant" element={ <Restaurant />} />
   <Route path="/admin" element={<AdminDashboard />} />
 </Routes>
 
