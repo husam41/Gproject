@@ -67,7 +67,7 @@ function Hero() {
             <div className="mb-8 animate-fade-in">
               <h1 className="text-6xl md:text-8xl font-bold mb-6">
                 <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent drop-shadow-2xl">
-                  Discover Cairo
+                  Discover Egypt
                 </span>
               </h1>
               <p className="text-xl md:text-3xl text-gray-200 font-light max-w-3xl mx-auto leading-relaxed">
