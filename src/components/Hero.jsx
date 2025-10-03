@@ -90,7 +90,7 @@ function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </Link>
               
-              <Link
+              {/* <Link
                 to="/services"
                 className="px-10 py-5 border-2 border-white/30 hover:border-white/60 backdrop-blur-sm rounded-2xl font-semibold text-lg text-white transition-all duration-300 hover:bg-white/10 flex items-center justify-center gap-3"
               >
@@ -99,7 +99,7 @@ function Hero() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                 </svg>
-              </Link>
+              </Link> */}
             </div>
 
             {/* Features Cards */}
